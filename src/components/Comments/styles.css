@@ -1,0 +1,41 @@
+.ct-comments-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-background-tertiary);
+  padding: 0 20px;
+}
+
+.ct-comments-container h2 {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 25px 0;
+  color: var(--color-font-secondary);
+}
+
+.ct-card-comments {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-width: 960px;
+  font-size: 16px;
+  background-color: var(--color-background-primary);
+  color: var(--color-font-tertiary);
+  border: 1px solid var(--color-border-primary);
+  padding: 25px 20px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+}
+
+@media (min-width: 1200px) {
+  .ct-comments-container h2 {
+    font-size: 32px;
+  }
+
+  .ct-card-comments {
+    padding-left: 20px;
+  }
+
+}

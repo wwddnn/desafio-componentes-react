@@ -1,5 +1,6 @@
 import "./App.css";
 import Card from "./components/Card";
+import Comments from "./components/Comments";
 import Header from "./components/Header";
 
 export default function App() {
@@ -12,6 +13,9 @@ export default function App() {
         <Card />
       </section>
 
+      <section id="ct-comments-section" className="ct-comments-container">
+        <Comments />
+      </section>
     </main>
 
     </>
