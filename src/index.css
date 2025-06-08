@@ -1,21 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 :root {
-    --color-background-primary: #ffffff;
-    --color-background-secondary: #3C9AF0;
-    --color-background-tertiary: #C8C8C8;
+  --color-background-primary: #ffffff;
+  --color-background-secondary: #3c9af0;
+  --color-background-tertiary: #c8c8c8;
 
-    --color-font-primary: #FFFFFF;
-    --color-font-secondary: #5E5E5E;
-    --color-font-tertiary: #3C9AF0;
+  --color-font-primary: #ffffff;
+  --color-font-secondary: #5e5e5e;
+  --color-font-tertiary: #3c9af0;
 
-    --color-border-primary: #C8C8C8;
-    --color-border-secondary: #3C9AF0;
+  --color-border-primary: #3c9af0;
 }
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: "Poppins";
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
 }
