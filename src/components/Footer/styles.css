@@ -1,0 +1,26 @@
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 120px;
+  background-color: var(--color-background-secondary);
+  color: white;
+  font-size: 16px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.card-footer a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card-footer address {
+  font-style: italic;
+}
